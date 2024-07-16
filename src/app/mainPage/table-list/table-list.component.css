@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+
+
+table {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    box-shadow: 0 12px 5px rgba(31, 31, 31, .3);
+    background: #fafafa;
+    text-align: center;
+
+}
+
+.btn1 {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    background-color: rgb(149, 221, 167);
+    font-family: 'Inter', sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 12px 12px;
+
+}
+
+.btn2 {
+
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    background-color: rgb(233, 158, 145);
+    font-family: 'Inter', sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 12px 12px;
+
+}
+
+.btn3 {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    background-color: rgb(225, 245, 155);
+    font-family: 'Inter', sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 12px 12px;
+
+}
+
+th,
+td {
+    padding: 12px 15px;
+}
+
+th {
+    background: #6aa7cf;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+
+td {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
